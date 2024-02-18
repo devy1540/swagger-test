@@ -1,0 +1,32 @@
+### domainA 01
+GET localhost:8080/A/01
+
+### domainA 02
+POST localhost:8080/A/02
+
+### domainA 03
+PATCH localhost:8080/A/03
+
+### domainA 04
+DELETE localhost:8080/A/04
+
+### domainA 05
+GET localhost:8080/A/05?str=hello world
+
+### domainA 06-1
+GET localhost:8080/A/06?arr=1,2
+
+### domainA 06-2
+GET localhost:8080/A/06?arr=1&arr=2
+
+### domainA 07-1
+GET localhost:8080/A/07?list=1,2
+
+### domainA 07-2
+GET localhost:8080/A/07?list=1&list=2
+
+### domainA 07-3
+GET localhost:8080/A/07?list=[\"1\",\"2\"]
+
+### domainA 07-4
+GET localhost:8080/A/07
